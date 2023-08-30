@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="css/booking.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <script type="text/javascript" src="javascript/Booking.js"></script>
+</head>
+<body>
+<form action="">
+    <header>
+        <div class="logo">
+            <a href=""> B  T  C <br> <span>Benue Tourist Center</span></a>
+        </div>
+
+        <div class="a-btn">
+            <a href="signup.html">sign up</a> <br>
+            <a href="login.html">log in</a>
+        </div>
+        
+        <div class="searchbar">
+        <input type="text" name="search" placeholder="Search...">
+        </div>
+    </header>
+    <div class="navbar">
+              <a href="index.html" style="text-decoration: none; color: rgb(255, 255, 255);">HOME </a>
+               <a href="place.html" style="text-decoration: none; color: rgb(255, 255, 255);">PLACES </a>
+               <a href="tourguides.html" style="text-decoration: none; color: rgb(255, 255, 255);">ABOUT US </a>
+               <a href="contactus.html" style="text-decoration: none; color: rgb(255, 255, 255);">CONTACT US</a>
+               <a href="faq.html" style="text-decoration: none; color: rgb(255, 255, 255);">HELP</a> 
+      </div>
+
+      <div class="content">
+          <div class="register">
+        <form name="register" action="" method="post">
+            <br>  
+			<label> Surname </label>
+			<input type="text" name="sname" id="sname" placeholder="Enter surname" onblur="changeColor(this)"/>
+			 <br> <br> <br>
+            <label> Othername </label>
+			<input type="text" name="oname" id="oname" placeholder="Enter Othername" onblur="changeColor(this)"/>
+            <br> <br> <br>
+			<label> Birthdate </label>
+			<input type="date" name="bdate" id="bdate" onblur="changeColor(this)"/>	
+            <br> <br> <br>
+			<label> Email </label>
+			<input type="email" name="email" id="email" placeholder="Enter Othername" onblur="changeColor(this)"/>	
+            <br> <br> <br>
+            <label> Address </label>
+			<input type="text" name="Address" id="Address" onblur="changeColor(this)"/>	
+            <br> <br> <br>
+			<label> Gender </label>
+			<input type="radio" name="gender" id="gender" value="Male" onblur="changeColor(this)"  /> Male	
+            <input type="radio" name="gender" id="gender" value="Female"  onblur="changeColor(this)"/> Female	
+            <br> <br> <br>
+            <label> Tour Name </label>
+			<select id="tour_name" onblur="changeColor(this)">
+				<option value="yammarket"> Yam market </option>
+				<option value="montane"> Montane </option>
+				<option value="markudistadium"> Markudi Stadium </option>
+				<option value="markudiairport"> Markudi airport </option>
+                <option value="markudi_museum"> Markudi museum </option>				
+				<option value="ikyogenhill"> Ikyogenhill </option>				
+				<option value="enumabia"> Enumabia </option>								
+			</select>
+            <br> <br> <br>
+			<label> Nationality </label>
+			<select id="nation" onblur="changeColor(this)">
+				<option value="Nigeria"> Nigeria </option>
+				<option value="Ghana"> Ghana </option>
+				<option value="Russian"> Russia </option>
+				<option value="China"> China </option>				
+			</select>	
+             <br> <br> <br>
+             <input id="button" type="button" value="Book" onclick="show_Window()"/>
+		</form>
+      </div>
+    </div>
+
+    <footer>
+        <div class="icons">
+                  <table border="0"  cellspacing="50"  class="reasons">
+                      <tr>
+          <td> <a href=""><img src="images/facebook.jpg" alt="" height="40"> </a></td> 
+          <td> <a href=""><img src="images/twitter.jpg" alt=""  height="40"> </a> </td> 
+          <td> <a href=""><img src="images/youtube.jpg" alt=""  height="40"> </a> </td> 
+          <td> <a href=""><img src="images/instagram.jpg" alt="" height="40"> </a> </td> 
+                      </tr>
+                  </table>
+        </div>
+        <div id="bottom_menu">
+            <ul>
+                <li><a href="#">info .</a></li> 
+                <li><a href="#">support .</a></li> <br>
+                <li class="bottom_align"><a href="#">Terms of Use .</a> </li> 
+                <li class="bottom_align"><a href="#">Privacy Policy .</a></li> 
+              
+            </ul>
+        </div>
+        <p class="footerp">Developer: shedrach ogboji<br>
+            <a href="mailto:shedrachogboji4@gmail.com">shedrachogboji4@gmail.com</a></p>
+
+            <p class="reserved">
+                &copy; 2022 <span class="font_bold">Applied Services Limited</span>. All rights reserved.
+            </p>
+    </footer>
+
+</form>
+</body>
+</html>

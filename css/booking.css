@@ -1,0 +1,186 @@
+
+form{
+    background: white;
+    padding: 0px 80px;
+  }
+  header{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100px;
+    box-shadow:inset 5px 5px 8px rgb(255, 255, 255),
+               inset -2px -2px 4px rgba(12, 14, 17, 0.29);
+  }
+  .logo a{
+    display: block;
+    margin-left: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'fredoka one, cursive' ;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: blue;
+    }
+  .logo a span{
+    color: black;
+    font-size: 0.3em;
+    font-weight: bold;
+    position: relative;
+    top: -25px; 
+  }
+  header .a-btn a{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 5px;
+    padding: 10px 10px;
+    border-radius: 50px;
+    font-weight: 700;
+    color: white;
+    font-weight: bold;
+    width: 60px;
+    margin: 0 35px 20px ;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: blue;
+    font-size: 18px;
+    position: relative;
+    left: 1200px;
+    bottom: 80px; 
+    margin-top: -80px; 
+  }
+  .searchbar input::placeholder{
+    color: rgb(138, 135, 135);
+    font-family: 'raleweay', sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+  } 
+  header .searchbar input{
+    padding: 12px 12px 12px 50px;
+    width: 200px;
+    height: 15px;
+    border-radius: 50px;
+    border: none;
+    background-color:rgb(223, 223, 226);
+    outline: none;
+    position: absolute;
+    top: 20px;
+    left: 650px;
+  }
+  .navbar {
+    width: 100%; 
+    position: relative;
+    left: 100px;
+    top: 30px;
+  }
+  .navbar a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 5px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    width: 120px;
+    margin: 0 35px 20px ;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: blue;
+    font-size: 18px;
+    margin-top: -80px;
+    text-align: center;
+  }
+  
+.content{
+    position: relative;
+    top: 100px;
+    height: 650px;
+    background: rgb(238, 238, 238);
+}
+
+.register{
+    position: relative;
+    left: 500px;
+}
+#sname , #oname , #bdate , #email #nation #Address{
+    width: 300px;
+    height: 30px;
+}
+.nation{
+    width: 300px;
+    height: 30px;
+}
+label{
+    font-size: 1.5em;
+}
+#button{
+    background: blue;
+    color: white;
+    font-size: 1.2em;
+    height: 35px;
+    border-radius: 5px;
+    width: 150px;
+  }
+  
+  footer{
+      background: blue;
+      width: 100%;
+      height: 200px;
+      position: relative;
+      top: 150px;
+  }
+  .icons{
+      position: relative;
+      left: 500px;
+      bottom: 30px;
+  }
+  .footerp a{
+      text-decoration: none;
+      font-size: 1.2em;
+      color: white;
+  }
+  .footerp {
+    position: relative;
+    bottom: 90px;
+    left: 20px;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+  }
+  #bottom_menu{
+    position: relative;
+    bottom: 80px;
+    left: 600px;
+  }
+  #bottom_menu a{
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  }
+  
+  #bottom_menu ul li{
+      padding:0px 10px;
+      margin:2px 0px;
+      display:inline-block;
+      position: relative;
+    left: -10px;
+  }
+  #bottom_menu ul li a{
+      font-size:15px;
+      font-weight:600;
+      text-decoration:none;
+      color:#ffffff;
+      float:left;
+    text-align: center;
+  }
+  .bottom_align a{
+    position: relative;
+    right: 50px;
+  }
+  .reserved{
+    position: relative;
+    left: 1100px;
+    bottom: 100px;
+    color: #ffffff;
+  }
